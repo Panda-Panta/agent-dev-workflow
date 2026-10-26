@@ -1,0 +1,6 @@
+interface:
+  display_name: "Agent 软件开发通用流程"
+  short_description: "覆盖计划、并行开发、验证、分类交付与已完成流程知识沉淀的通用工作规范"
+  default_prompt: "使用 $agent-dev-workflow 处理当前任务：开发任务执行适用流程；若仅整理已完成的操作经验，则检查已有资源并补充领域 skill 或文档。"
+policy:
+  allow_implicit_invocation: true
