@@ -8,6 +8,8 @@
 
 规划时，在资源检查后、模块拆分前先做 [自动化判断](agent-dev-workflow/references/files-and-automation.md#规划阶段的自动化判断)：根据重复、批量、易错或可靠重跑等实际需要，决定复用、扩展、新建最小工具或直接操作。个人任务在现有计划简记选择与理由，不强制创建脚本。
 
+开发只做能发现本次目标失败的最低必要检查，通过后停止，复用有效结果；不例行哈希比较、频繁备份或重复测试。结构按更新次数或项目体量触发 [定期优化](agent-dev-workflow/references/planning.md#目录索引与定期整理)，落实有实际收益的整理，保持个人流程轻量。
+
 ## 安装与调用
 
 1. 克隆本仓库：
@@ -16,7 +18,7 @@
    git clone https://github.com/Panda-Panta/agent-dev-workflow.git
    ```
 
-2. 找到所用 Agent 环境实际读取的 skills 目录，将仓库内的 **`agent-dev-workflow/` 子目录完整复制**过去，保持 `SKILL.md`、`agents/`、`assets/`、`references/` 和 `scripts/` 的相对位置。目标已存在时，先比较差异并备份，保留自己的修改，再同步需要更新的文件。
+2. 找到所用 Agent 环境实际读取的 skills 目录，将仓库内的 **`agent-dev-workflow/` 子目录完整复制**过去，保持 `SKILL.md`、`agents/`、`assets/`、`references/` 和 `scripts/` 的相对位置。目标已存在时保留自己的修改，只同步本次需要更新的文件；可从 Git 恢复的内容不例行另做备份。
 3. 在该环境中确认技能可被发现；需要重新加载时按宿主环境的方式操作。随后可显式调用：
 
    ```text
