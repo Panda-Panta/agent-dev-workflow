@@ -38,6 +38,8 @@
 | 完整流程、决策与证据原则 | [主 skill](agent-dev-workflow/SKILL.md) |
 | 个人与共同开发、验证和审查 | [开发模式](agent-dev-workflow/references/development-modes.md) |
 | 计划、源码结构与模板选择 | [规划与维护](agent-dev-workflow/references/planning.md) |
+| 共享接口、字段或事件发生变化时确定下游与验收路径 | [跨模块影响分析](agent-dev-workflow/references/planning.md#跨模块影响分析) |
+| 偶发读写错误、跨模块故障或性能退化 | [疑难故障定位](agent-dev-workflow/references/development-modes.md#疑难故障定位) · [性能退化对照](agent-dev-workflow/references/development-modes.md#性能退化对照) |
 | 并行派工、文件归属与集成 | [并行规则](agent-dev-workflow/references/parallel.md) |
 | 工具、文档、产物分类及清理 | [文件与自动化](agent-dev-workflow/references/files-and-automation.md) |
 | 开发日志、使用说明与交接 | [文档规范](agent-dev-workflow/references/documentation.md) |
