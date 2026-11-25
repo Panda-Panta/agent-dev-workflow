@@ -41,7 +41,7 @@
 | 共享接口、字段或事件发生变化时确定下游与验收路径 | [跨模块影响分析](agent-dev-workflow/references/planning.md#跨模块影响分析) |
 | 偶发读写错误、跨模块故障或性能退化 | [疑难故障定位](agent-dev-workflow/references/development-modes.md#疑难故障定位) · [性能退化对照](agent-dev-workflow/references/development-modes.md#性能退化对照) |
 | 并行派工、文件归属与集成 | [并行规则](agent-dev-workflow/references/parallel.md) |
-| 工具、文档、产物分类及清理 | [文件与自动化](agent-dev-workflow/references/files-and-automation.md) |
+| 工具与文档分类，任务结束时判断项目生成文件的去留 | [文件与自动化](agent-dev-workflow/references/files-and-automation.md) · [收尾清理](agent-dev-workflow/references/files-and-automation.md#在明确节点清理) |
 | 开发日志、使用说明与交接 | [文档规范](agent-dev-workflow/references/documentation.md) |
 | 分支、远端、安装与回退 | [交付规则](agent-dev-workflow/references/delivery.md) |
 | 已完成流程的文档与领域 skill 沉淀 | [知识沉淀](agent-dev-workflow/references/domain-skills.md) |
